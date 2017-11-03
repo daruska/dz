@@ -1,0 +1,118 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+input,
+button{
+  border: none;
+  outline: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+.chat-wrapper{
+    width: 80%;
+    min-height: 100vh;
+    margin:0 auto;
+    padding: 30px;
+    border: 5px solid lightgrey;
+}
+
+/*---------CHAT MASSAGES-------*/
+.avatar{
+    position: relative;
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    background: #999 url("face.jpg") center/cover no-repeat; 
+}
+
+  .chat-massage{
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2.7rem;
+  }
+  
+  .chat-massage-content{
+    display: inline-block;
+    max-width: 60%;
+    padding: 20px;
+    margin: 0 1.5rem;
+    border-radius: 10px;
+    background:#989AD7;
+    color:#fff;
+  }
+  
+  /*--input field for creating new massage--*/
+  
+  .chat{
+    width: 80%;
+    height: 45px;
+    padding: 10px 30px 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    background: #F1F1FB;
+  }
+  
+  .chat-input::-webkit-input-placeholder {
+    color: #CACAF5;
+  }
+  
+.btn{
+    padding: 12px 20px;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.btn:hover{
+    background: rgb(134, 41, 41);
+}
+
+.btn:active{
+    top: 2px;
+}
+
+.list{
+  width: 30%;
+}
+.list-item{
+  margin: 20px;
+  margin-left: 20%;
+  padding: 15px;
+  background-color:#989AD7 ;
+  
+  border-radius: 10px;
+  border-bottom: 2px solid lightgrey;
+  color:white;
+  font-weight: 700;
+  display: flex;
+  justify-content:space-between;
+}
+  
+.avatar-t{
+  padding: 19px;
+  margin-left: 90%;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #999 url("face.jpg") center/cover no-repeat; 
+}
+
+.icon{
+  color: rgb(235, 242, 243);
+}
+
